@@ -1,0 +1,26 @@
+{
+    "name": "country-to-domain",
+    "version": "1.0.1",
+    "description": "Map ISO 3166-1 alpha-2 country codes to a generic domain suffix",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "country",
+        "domain",
+        "resolver",
+        "tld",
+        "iso3166"
+    ],
+    "author": "Nick",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.8.3"
+    }
+}
